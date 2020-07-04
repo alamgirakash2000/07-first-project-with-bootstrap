@@ -1,0 +1,130 @@
+section{
+    padding-top: 20;
+    padding-bottom: 20px;
+}
+header{
+    background: rgba(0,0,51,0.7) ;
+}
+.col-lg-7 ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.col-lg-7 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.col-6 ul li:hover{
+    background-color: rgba(71, 6, 87, 0.76);
+}
+#one{
+    background-image: url(images/bg-one.jpg);
+    background-size: 100% 150%;
+
+}
+#one h1, #one p{
+    background-color: rgba(119, 136, 153, 0.623);
+}
+.section-head{
+    text-align: center;
+    padding: 4rem;
+}
+.section-head:after{
+    display: block;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: tomato;
+    margin: 10px auto;
+}
+i{
+    color: tomato;
+}
+
+#three{
+    background-image: url(images/bg-two.jpg);
+    background-size: 100% 160%;
+}
+#three img{
+    width: 25%;
+    height: 50%;
+    border-radius: 50%;
+}
+.news-image{
+    width: 100%;
+    margin-bottom: 0.8rem;
+}
+.news-heading{
+    color: rgb(20, 20, 78);
+}
+#news a{
+    color: tomato;
+}
+footer{
+    background-color: rgba(15, 22, 51, 0.911);
+}
+.footer-head:after{
+    display: block;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    margin: 0.7rem 0;
+}
+address{
+    font-style: italic;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+#copywright{
+    color: rgba(255, 255, 255, 0.733);
+}
+
+
+
+
+@media (max-width:500px){
+    body{
+        font-size: 60%;
+        text-align: center;
+    }
+    .name{
+        font-size: 200%;
+        margin-top: 1rem;
+    }
+    #one h1{
+        font-size: 175%;
+    }
+    .section-head{
+        font-size: 175%;
+    }
+    h3{
+        font-size: 150%;
+    }
+    #news{
+        text-align: left;
+    }
+    .news-heading{
+        font-size: 170%;
+    }
+    .footer-head{
+        font-size: 125%;
+    }
+    .section-head:after{
+        width: 25%;
+        margin: 10px auto;
+    }
+    .footer-head:after{
+        width: 25%;
+        margin: 10px auto;
+    }
+ 
+}
